@@ -1,71 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="reset.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+  <!--Head info meta data -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--Import icon library -->
+    <!--Change index page to Home page  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="reset.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
     <title>I'Shaya's Portfolio</title>
-</head>
+  </head>
+  <!--End Head info meta data -->
+  <header>
+    <!--Nav  Bar -->
+    <nav class="navbar navbar-expand-lg navPos shadow p-3 mb-5 bg-body rounded">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            src="./img/bgLogoPink.JPG"
+            alt="shay's logo"
+            width="80"
+            height="50"
+            class="d-inline-block align-text-top"
+          />
+        </a>
 
-<body>
-    <header> 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <!--Nav  Bar -->
-                <a class="navbar-brand" href="./index.html">
-                    <img src="./img/bgLogoPink.JPG" alt="shay's logo" width="50" height="40" class="d-inline-block align-text-top">
-                    "Coding With Shay"
-                  </a>
-                  
-              <a class="navbar-brand" href="./index.html">I'shaya Portfolio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-       </header>
-   
-     <!--Main info-->
+        <a class="navbar-brand aStyle" href="./index.html">
+          I'shaya Portfolio
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+          <!--NAV BAR ITEMS-->
+          <ul class="navbar-nav">
+            <!--ABOUT ME NAV-->
+            <li class="nav-item">
+              <a
+                class="nav-link active fa fa-fw fa-home aStyle"
+                aria-current="page"
+                href="./index.html"
+                >About
+              </a>
+            </li>
+
+            <!--PORTFOLIO NAV-->
+            <li class="nav-item">
+              <a class="nav-link fa fa-user aStyle" href="./portfolio.html">
+                Portfolio</a
+              >
+            </li>
+
+            <!--CONTACT NAV-->
+            <li class="nav-item">
+              <a
+                class="nav-link fa fa-fw fa-envelope aStyle"
+                href="./contact.html"
+                >Contact</a
+              >
+              <!--Once deleted resize nav bar-->
+            </li>
+          </ul>
+          <!--END OF NAV BAR-->
+        </div>
+      </div>
+    </nav>
+    <!--End Nav Bar -->
+  </header>
+
+  <!--BODY TAG-->
+  <body>
+    <!--Main info-->
     <main class="container main1">
-     <section class="row">
-            <section class="col-md-12">
-              <h1> About Me </h1>
-              <hr>
-            </section>
-         <section class="row">
-            <section class="col-sm-12">
-                 <img src="./img/potraitImg.JPG" alt="photo of web developer I'shaya Napper" class="aboutMe-img img-thumbnail">
-                   <p>
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                          Nihil provident vitae eaque perferendis possimus odit commodi praesentium nostrum. Dolor sed quidem, optio sequi sapiente fuga velit exercitationem tempora, qui, veniam ipsam. Molestiae blanditiis animi sint repudiandae enim, voluptas quos suscipit itaque iste rerum ipsam modi fugiat aspernatur beatae eum neque explicabo inventore? Laboriosam exercitationem cumque necessitatibus molestiae quaerat, odio ipsam labore. Impedit vero ratione est unde maiores consequuntur, ipsum odio ea inventore quaerat hic quis, neque corporis expedita doloremque libero ut quo vel quam at nobis saepe. Voluptatem voluptatibus saepe laudantium nostrum aspernatur <br>
-                         debitis eius at vero, corporis dolor.
-                  </p>
-            </section>
-            </section>  
-         </section>
-     </main> 
-    
- 
+      <!--BEGIN OF ABOUT ME CONTAINER -->
+      <!--SECTION -->
+      <section class="row">
+        <section class="col-lg-12">
+          <br />
+          <h1>Home Page</h1>
+          <hr />
+        </section>
+        <!--SECTION Contains main img -->
+        <section class="row">
+          <section class="col-sm-12">
+            <img
+              src="./img/potraitImg.JPG"
+              alt="photo of I'shaya Napper"
+              class="aboutMe-img img-thumbnail"
+            />
+            <p>
+              Hi, my name is I’shaya Napper I am a mother and junior developer.
+              I’ve been coding for about a year and I am falling in love with it
+              more each day. <br />
+              I first was introduced to coding via my college instructor. I had
+              never seen any code before. I had always had an interest in
+              computers stemming from myspace days, where we could customize our
+              profile lol!<br />
+              Once I began building projects, I knew this was the industry for
+              me. I am exciting to join a growing industry and become the first
+              Black tech professional in my family. I am not the common person
+              for this field which makes me more passionate. I would love to
+              show my daughter anything is possible with persistence and
+              determination. Outside of coding I do enjoy, working out,
+              meditation, trying new restaurants or just spending time at home.
+            </p>
+          </section>
+        </section>
+      </section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
-</body>
+      <!--END OF ABOUT ME CONTAINER -->
+    </main>
+<!--Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <!--End BODY TAG-->
 </html>
